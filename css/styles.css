@@ -1,0 +1,217 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body a {
+    text-decoration: none;
+    color: #428bca;
+}
+
+body a:hover {
+    color: #2a6496;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+    color: gray;
+}
+
+h1, h2 {
+    color: #95D600;
+    font-weight: 400;
+}
+
+ul, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+input, button {
+    font-size: 14px !important;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #EEE;
+}
+
+#upper_header {
+    background-color: #232F3E;
+    color: #CCCCCC;
+    padding: 10px;
+    height: 40px;
+}
+
+#upper_header a {
+    color: #D9853B;
+}
+
+#upper_header a:hover {
+    color: #c15e07;
+}
+
+#lower_header {
+    height: 100px;
+    padding: 10px;
+}
+
+#logo, #home_link { float:left; }
+
+#account_buttons, #header_panier {
+    float:right;
+    text-align: right;
+}
+
+#searchbar_block {
+    margin: 20px auto 0;
+    width: 90%;
+    text-align: center;
+}
+
+#searchbar {
+    width: 75%;
+    height: 39px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+#left_menu {
+    float: left;
+    padding: 10px;
+}
+
+#categories {
+    padding: 10px;
+    border: 1px solid #CCC;
+    background-color: #EEE;
+    border-radius: 10px;
+}
+
+#categories h4 {
+    color: #999;
+}
+
+#categories hr {
+    border: 1px solid lightgray;
+}
+
+#content {
+    margin-left: 275px;
+    padding: 10px;
+}
+
+.error {
+    color: #cc0000;
+    border: 1px solid #cc0000;
+    background-color: #FEE;
+}
+
+.success {
+    color: green;
+    border: 1px solid green;
+    background-color: #EFE;
+}
+
+.error, .success {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.right_space {
+    margin-right: 10px;
+}
+
+.user_form label {
+    display:inline-block;
+}
+
+#login_form label {
+    width: 150px;
+}
+
+#register_form label {
+    width: 200px;
+}
+
+.profile_form label {
+    width: 300px;
+}
+
+.admin_form label {
+    width: 300px;
+}
+
+.admin_form {
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 0 25px 25px 0;
+    padding: 15px;
+    vertical-align: top;
+    width: 45%;
+}
+
+.user_form input[type="text"],
+.user_form input[type="password"] {
+    width: 300px;
+}
+
+#del_account_btn {
+    color: lightcoral;
+}
+
+#panier_link {
+    display:inline-block;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.product_display {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.price_tag {
+    font-size: 1.3em;
+    font-weight: 700;
+}
